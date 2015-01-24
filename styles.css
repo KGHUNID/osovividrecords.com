@@ -1,0 +1,326 @@
+img.OSOGrayBGimg {
+width: 100%;
+height: 17%;
+position: absolute;
+top: 0px;
+left: 0px;
+z-index: -5;
+}
+
+img.OSOGrayBGimgBTM {
+width: 100%;
+height: 17%;
+position: absolute;
+bottom: 0px;
+left: 0px;
+z-index: -5;
+}
+
+.verycenter {
+ height: 504px;
+ width: 504px;
+ position: absolute;
+ display: none;
+}
+
+.PhotoDiv {
+ height: 504px;
+ width: 504px;
+ position: absolute;
+}
+
+.verytopcenter {
+  left: -150px;
+  position: absolute;
+  display: none;
+}
+
+.promoKGOHQTUP {
+    width : 260px;
+    height : 200px;
+	bottom : 10px;
+	position: fixed;
+    left : 50px;
+
+}
+.vcenter {
+ height: 150px;
+ width: 489px;
+ position: absolute;
+}
+
+.mcenter {
+    -webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #FFFFFF;
+    -webkit-fill-color: #FFFFFF;
+    text-shadow: 2px 2px 20px white;
+    -webkit-transition: width 0.3s; /*Safari & Chrome*/
+     transition: width 0.3s;
+    -moz-transition: width 0.3s; /* Firefox 4 */
+    -o-transition: width 0.3s; /* Opera */
+}
+
+.calendarWrap {
+        position: absolute;
+        visibility: hidden;
+        width: 40vw;
+        height: 10vh;
+        top: 5px;
+}
+
+.payPal {
+        visibility: hidden;
+        float: left;
+        position: absolute;
+        left: 1253px;
+        top: 71px;
+        z-index: 107;
+}
+
+#wrap { 
+	width: 900px; 
+	margin: 0 auto; 
+}
+
+#hoverdiv {
+	display: none;
+	position: absolute;
+	font-size: 14px;
+	background-color: #fff;
+	color: #404040;
+	border: 1px solid #999;
+	padding: 7px;
+	z-index: 700;
+}
+
+#flashPlayer {
+	padding-top: 0%;
+	padding-left: 0%;
+        z-index: 100;
+        visibility: hidden;
+        width: 295px;
+	position: relative;
+}
+
+#exitMusic {
+    visibility: hidden;
+}
+
+#BottomTexter {
+	width : 250px;
+	bottom : 10px;
+	position: fixed;
+	font-size : 13px;
+	color: #100; 
+    text-shadow:2px 2px 2px #FFFFFF;
+}
+
+#preload { 
+	display: none;
+}
+
+#twitta {
+	position: fixed;
+}
+
+#twitta2 {
+    position: fixed;
+}
+
+#fakeBack {
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: background-image 1s ease-in-out;
+        height: 100em;
+        width: 100em;
+        z-index: -100;
+        background-image: url('../images/osovivid/ColoradoLight.jpg');
+}
+
+#formMail {
+        visibility: hidden;
+        position: absolute;
+        z-index: 111;
+        padding:30px 30px 30px 10px;
+        width: 440px; 
+        height: 250px;
+}
+
+.theFormMail {
+        background-color:white;
+        opacity:0.8;
+        filter:Alpha(opacity=80); /* IE8 and earlier */
+        -webkit-border-top-left-radius: 30px;
+        -webkit-border-top-right-radius: 50px;
+        -webkit-border-bottom-right-radius: 10px;
+        -webkit-border-bottom-left-radius: 30px;
+        -moz-border-radius-topleft: 30px;
+        -moz-border-radius-topright: 50px;
+        -moz-border-radius-bottomright: 10px;
+        -moz-border-radius-bottomleft: 30px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 30px;
+}
+
+/* THE NEW AUDIO PLAYER 2014 */
+
+.example {
+    margin: 50px auto 0;
+    width: 400px;
+}
+.player {
+    background: transparent url("../images/spr.png") no-repeat scroll center top;
+    height: 162px;
+    position: relative;
+    width: 326px;
+    z-index: 5;
+    top: 100px;
+}
+.title, .artist {
+    font-family: verdana;
+    left: 167px;
+    position: absolute;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+     user-select: none;
+    -ms-user-select: none;
+}
+.title {
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: bold;
+    top: 23px;
+}
+.artist {
+    color: #EEEEEE;
+    font-size: 8px;
+    top: 40px;
+}
+.pl {
+    background: transparent url("../images/spr.png") no-repeat scroll -274px -175px;
+    cursor: pointer;
+    height: 34px;
+    left: 270px;
+    position: absolute;
+    top: 20px;
+    width: 32px;
+}
+.pl:hover {
+    top: 21px;
+}
+.cover {
+    background: transparent url(../images/AudioPlayerPic.png) no-repeat scroll center top;
+    border-radius: 5px 5px 5px 5px;
+    height: 94px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 94px;
+}
+.controls {
+    cursor: pointer;
+    height: 23px;
+    left: 167px;
+    position: absolute;
+    top: 65px;
+    width: 146px;
+}
+.controls .play, .controls .pause, .controls .rew, .controls .fwd {
+    background: transparent url("../images/spr.png") no-repeat scroll 0 0;
+    float: left;
+    height: 100%;
+    width: 33%;
+}
+.controls .play {
+    background-position: -8px -171px;
+}
+.controls .pause {
+    background-position: -8px -198px;
+    display: none;
+}
+.controls .rew {
+    background-position: -54px -171px;
+}
+.controls .fwd {
+    background-position: -100px -171px;
+}
+.controls .play:hover {
+    background-position: -8px -170px;
+}
+.controls .pause:hover {
+    background-position: -8px -197px;
+}
+.controls .rew:hover {
+    background-position: -54px -170px;
+}
+.controls .fwd:hover {
+    background-position: -100px -170px;
+}
+.hidden {
+    display: none;
+}
+.controls .visible {
+    display: block;
+}
+.volume {
+    height: 11px;
+    left: 186px;
+    position: absolute;
+    top: 96px;
+    width: 112px;
+    z-index: 6;
+}
+.tracker {
+    height: 15px;
+    left: 20px;
+    position: absolute;
+    top: 126px;
+    width: 285px;
+    z-index: 10;
+}
+.ui-slider-range {
+    background: transparent url("../images/spr.png") no-repeat scroll 5px -222px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 7;
+}
+.ui-slider-handle {
+    cursor: pointer;
+    height: 8px;
+    margin-left: -5px;
+    position: absolute;
+    top: 2px;
+    width: 8px;
+    z-index: 7;
+}
+.volume .ui-slider-handle {
+    background: url("../images/spr.png") no-repeat scroll -201px -188px rgba(0, 0, 0, 0);
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+}
+.playlist {
+    background-color: #333333;
+    border-radius: 5px 5px 5px 5px;
+    list-style-type: none;
+    margin: -10px 0 0 2px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    position: relative;
+    width: 283px;
+    top: 100px;
+    z-index: 4;
+}
+.playlist li {
+    color: #EEEEEE;
+    cursor: pointer;
+    margin: 0 0;
+}
+.playlist .active {
+    font-weight: bold;
+}
